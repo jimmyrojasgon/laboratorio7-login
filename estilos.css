@@ -1,0 +1,41 @@
+html, body{
+	position: relative;
+	width: 50%;
+	height: 50%;
+	padding: 0;
+	margin: 0;
+	font-family: 'RobotoCondensedRegular';
+	font-size: 16px;
+}
+.full-width{
+	width: 50%;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.ShowBox{
+	opacity: 1 !important;
+	pointer-events: auto !important;
+}
+
+
+.Login{
+	right: 0;
+	z-index: 77;
+	background: #f4f3f9;
+	color: #141414;
+	text-transform: none;
+	line-height: normal;
+	padding: 7px;
+	text-align: left;
+	font-size: 14px;
+	transition: all .3s ease-in-out;
+	opacity: 0;
+	pointer-events: none;
+}
+.Login a{
+	text-decoration: none;
+	line-height: auto;
+	text-align: center;
+	display: block;
+}
